@@ -84,7 +84,6 @@
 </template>
 
 <script lang="ts" setup>
-import MenuView from '../src/components/MenuView.vue'
 import { ref } from 'vue'
 import { Menu as IconMenu, Message, Location, Setting } from '@element-plus/icons-vue'
 const isCollapse = ref(true)
